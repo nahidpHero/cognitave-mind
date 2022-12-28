@@ -1,5 +1,7 @@
 import React from 'react';
 import AboutUs from '../AboutUs/AboutUs';
+import Blog from '../Blog/Blog';
+import Events from '../Events/Events';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
@@ -8,9 +10,10 @@ import Team from '../Team/Team';
 
 
 
+
 const Home = () => {
     return (
-        <div className='container'>
+        <div className='mx-0 lg:ml-5 lg:mr-5 bg-gray-400'>
             
             <Navbar></Navbar>
             <Header></Header> 
@@ -19,6 +22,8 @@ const Home = () => {
             <AboutUs></AboutUs>
             <Projects></Projects>
             <Team></Team>
+            <Blog></Blog>
+            <Events></Events>
             <Footer></Footer>
            
         </div>

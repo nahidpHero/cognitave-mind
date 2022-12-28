@@ -11,6 +11,7 @@ const Header = () => {
   <div className="hero-content text-center">
     <div className="">
      <img className='logo-style' src={logo} alt="" />
+     <h1 className='text-5xl text-blue-50 font-semibold'>Beyond your thinking</h1>
     </div>
   </div>
 </div>

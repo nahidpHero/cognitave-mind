@@ -15,7 +15,6 @@ const Navbar = () => {
          Cognative Mind
          </Link>
        </div>
-
        <div className="flex items-center mt-2 -mx-2 sm:mt-0 pr-2">
          <ul className="flex flex-wrap font-bold justify-center text-white gap-3 px-1  md:gap-5">
          <li>
@@ -31,10 +30,10 @@ const Navbar = () => {
    <a href="#education">Team</a>
    </li>
    <li>
-  <a href="#contact">Blogs</a>
+  <a href="#blogs">Blogs</a>
 </li>
 <li>
-  <a href="#contact">Events</a>
+  <a href="#events">Events</a>
 </li>
 <li>
   <a href="#contact">Contact Us</a>

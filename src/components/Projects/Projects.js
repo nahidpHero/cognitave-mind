@@ -33,10 +33,7 @@ const Projects = () => {
         },
       ];
     return (
-            <div id="projects" className="py-16 mx-auto w-62 lg:py-20 "
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500">
+            <div id="projects" className="py-16 ml-7 mr-7 mx-auto w-62 lg:py-20 ">
               <h1 className="my-10 text-5xl text-center">Reserse Projects</h1>
               <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {projects.map((project) => (
